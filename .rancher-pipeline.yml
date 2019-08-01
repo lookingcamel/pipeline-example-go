@@ -16,7 +16,7 @@ stages:
       buildContext: .
       tag: example-helloserver:${CICD_EXECUTION_SEQUENCE}
       pushRemote: true
-      registry: 192.168.3.9:32000
+      registry: 127.0.0.1:34742
 - name: Deploy
   steps:
   - applyYamlConfig:
